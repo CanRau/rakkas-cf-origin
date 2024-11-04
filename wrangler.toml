@@ -1,0 +1,11 @@
+name = "rakkas-test"
+compatibility_date = "2024-10-26"
+compatibility_flags = [ "nodejs_compat" ]
+main = "dist/edge/index.js"
+workers_dev = true
+
+[site]
+bucket = "./dist/client"
+
+[observability]
+enabled = true
